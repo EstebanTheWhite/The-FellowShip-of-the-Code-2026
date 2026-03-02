@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#quest-status {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px;
+}

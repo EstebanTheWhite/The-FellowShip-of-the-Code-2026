@@ -10,9 +10,9 @@ I chose this capability because decisions are important for the Fellowship and t
 
 ## Static Interface Implementation
 
-`[Static Interface](/src/code-1-representation.html)`
+`[Static Interface](/src/interface.html)`
 
-> For this example see [code-1-representation.weak.html](/src/code-1-representation.weak.html)
+> For this example see [interface.weak.html](/src/interface.weak.html)
 
 ## Design Rationale
 
