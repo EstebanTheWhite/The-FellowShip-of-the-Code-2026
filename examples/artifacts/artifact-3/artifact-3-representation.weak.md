@@ -48,7 +48,7 @@ This design supports the intent because it lets the user decide things. I follow
   - The UI does not express intent - it merely exists
 - **Design rationale is superficial:** Restates the assignment constraints instead of reflecting on decisions.
 - **Assumptions are not examined:** *"I assume the Fellowship knows how to use it"* avoids responsibility instead of reasoning.
-- **No linkage:** Weak or missing connection to assignment 1 (intent/value) and assignment 2 (wireframe).
+- **No linkage:** Weak or missing connection to Assignment 1 (situation/intent) and Assignment 2 (decisions).
 - **Reads like a checklist:** Not like a considered design step in a larger system.
 
 *`This example is not entirely wrong, but it is very generic and would be very hard to build on in later assignments.`*

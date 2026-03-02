@@ -10,15 +10,15 @@ I chose this because decisions are important in the journey.
 
 ## Flow
 
-`[Flow](/src/flow-1-decisions.mermaid.md)`
+`[Flow](/src/flowchart.mermaid.md)`
 
->For this example see [decisions.weak.mermaid.md](https://github.com/EstebanTheWhite/The-FellowShip-of-the-Code-2026/blob/main/examples/artifacts/artifact-1/src/decisions.weak.mermaid.md)
+>For this example see [flowchart.weak.mermaid.md](https://github.com/EstebanTheWhite/The-FellowShip-of-the-Code-2026/blob/main/examples/artifacts/artifact-1/src/flowchart.weak.mermaid.md)
 
 ## Wireframe
 
-`[Wireframe](/src/decisions.png)`
+`[Wireframe](/src/wireframe.png)`
 
-> For this example see [decisions.weak.png](/src/decisions.weak.png)
+> For this example see [wireframe.weak.png](/src/wireframe.weak.png)
 
 ## Design Rationale
 
@@ -54,7 +54,7 @@ I did not include too many details because that would make it complicated. The s
   - No connection to the journey context
     - *It describes a page with a text field and button.*
 - Design rationale lacks thinking
-  - No reference to assignment 1 intent/value
+  - No reference to Assignment 1 intent/value
   - No trade-offs discussed
   - *"Keep it simple"* is not a design argument
   - Assumptions are trivial and unexamined

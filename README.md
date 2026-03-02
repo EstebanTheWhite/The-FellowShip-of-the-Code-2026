@@ -27,21 +27,21 @@ Software development is no longer only for coders. For business & IT students, u
 
 **This course emphasizes:**
 
-- **Developer mindset:** thinking like a developer to collaborate and lead projects.
-- **AI-assisted development:** using AI tools responsibly to accelerate understanding.
-- **Hands-on practice:** creating artifacts and a final integrated system, **The Fellowship Companion**.
-- **Reflection:** documenting learning, AI experiences, and lessons in **The Red Book of Westmarch**.
+- **Developer mindset:** Thinking like a developer to collaborate and lead projects.
+- **AI-assisted development:** Using AI tools responsibly to accelerate understanding.
+- **Hands-on practice:** Creating connected artifacts and a final integrated system, **The Fellowship Companion**.
+- **Reflection:** Documenting learning, AI experiences, and lessons in **The Red Book of Westmarch**.
 
 ---
 
 ## 2. How We Will Work
 
-- Four modules, six lessons, multiple self-study assignments
+- Four modules, six lessons, multiple self-study assignments.
 - **Peer engagement** and **gamification** to motivate intrinsic participation.  
 - All work occurs on **GitHub & Codespaces**; artifacts are versioned and shared.  
 - **Each assignment consists of two parts:**
-  1. **Doing** - Creating a concrete artifact (requirements document, flow, wireframe, web page, automation, ...).  
-  2. **Reflecting & Sharing** - Updating **The Red Book of Westmarch**, documenting the process and AI usage, and sharing work and insights with peers.
+  1. **Doing:** Creating a concrete artifact (requirements document, flow, wireframe, web page, automation, ...).  
+  2. **Reflecting & Sharing:** Updating **The Red Book of Westmarch**, documenting the process and AI usage, and sharing work and insights with peers.
 
 ---
 
@@ -50,7 +50,7 @@ Software development is no longer only for coders. For business & IT students, u
 - Understand **software concepts and lifecycle**.
 - **Think and communicate like a developer**.
 - **Translate requirements** into flows, designs, and code.
-- **Implement static and dynamic artifacts** using HTML, CSS, JavaScript, and low-code tools.
+- **Implement static and dynamic artifacts** using HTML, CSS, JavaScript, and third-party tools.
 - **Reflect on AI assistance** and collaborative development.
 - Integrate modular components into a complete system.
 
@@ -60,12 +60,12 @@ Software development is no longer only for coders. For business & IT students, u
 
  Phase | Module | Lessons | Focus | Key Artifacts |
  ----- | ------ | ------- | ----- | ------------- |
- 1 | Application Concept | Understanding | Software fundamentals & concepts, roles & responsibilities, software lifecycle | Conceptual foundation (requirements), The Red Book of Westmarch |
- 2 | Application Design | Deciding, Representing | User Experience (UX) & User Interface (UI), decisions, assumptions & constraints, flows & designs, web fundamentals & concepts, HTML & CSS basics | User decision flow, interface design, static interface implementation, The Red Book chapter 1 & 2 |
- 3 | Application Logic | Modeling, Connecting | Development fundamentals & concepts, Libraries & Frameworks, third-party tools & automation, APIs & integration, JavaScript basics | Dynamic interface implementation, automation/extension, The Red Book chapter 3 & 4 |
- 4 | Application Synthesis | Reviewing | Integration, extension, review | Integrated Fellowship Companion, The Red Book chapter 5 |
+ 1 | Application Concept | Understanding | **Software concepts** (roles & responsibilities, lifecycle) | Conceptual foundation (situation & intent); The Red Book of Westmarch & The Red Book chapter 1 |
+ 2 | Application Design | Deciding, Representing | **Design concepts** (User Experience (UX) & User Interface (UI), decisions, assumptions & constraints, flows & designs), **Web concepts** (HTML & CSS basics) | User decision flow, interface design, static interface implementation; The Red Book chapter 2 & 3 |
+ 3 | Application Logic | Modeling | **Development concepts** (JavaScript basics) | Dynamic interface implementation; The Red Book chapter 4 |
+ 4 | Application Synthesis | Connecting, Reviewing | **Integration concepts** (Libraries & Frameworks, third-party tools & automation, APIs) | Automation/Extension, integrated Fellowship Companion; The Red Book chapter 5 |
 
-> Each assignment builds toward **The Fellowship Companion**, a digital system designed to support the journey (of the Fellowship) with planning, communication, decision-making, and resource management.
+> Each lesson builds toward **The Fellowship Companion**, a digital system designed to support the journey (of the Fellowship) with planning, communication, decision-making, and resource management.
 
  ---
 
@@ -86,7 +86,7 @@ This course uses a shared system narrative as a learning scaffold grounded in **
 *`Throughout this course, you will work as part of they Fellowship supporting it on its journey from the Shire to Mordor.
 The Fellowship is already on the move. Your task is not to simulate the journey - but to support it while it is happening.`*
 
-**You will build [The Fellowship Companion](/docs/systembrief.md):** a small digital product that helps the Fellowship make decisions, stay aligned, manage resources, and adapt to changing conditions along the way.
+**You will build [The Fellowship Companion](/docs/systembrief.md):** A small digital product that helps the Fellowship make decisions, stay aligned, manage resources, and adapt to changing conditions along the way.
 
 ---
 

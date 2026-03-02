@@ -4,7 +4,7 @@
 
 - [ ] Artifact *"artifact-x-title.md"* exists in `/artifacts/artifact-x/` (e.g., *`/artifact-1-situation-intent.md`*)
   - [ ] Artifact well described
-  - [ ] Supporting designs exist in `/src/` (e.g., *`/flow-1-deciding.mermaid.md`* or *`/wireframe-1-deciding.png`*) or code (e.g., *`/interface-1-representing.html`*)
+  - [ ] Supporting designs exist in `/src/` (e.g., *`/flowchart.mermaid.md`* or *`/wireframe.png`*) or code (e.g., *`/interface.html`*)
     - [ ] Referenced in the artifact
 - [ ] AI used thoughtfully (and justified in the chapters of The Red Book)
 

@@ -49,7 +49,7 @@
 ## Q3: How do I submit assignment?
 
 - **Commit artifacts** to your GitHub repo in the proper folder.
-- **Update the Red Boo**k with reflections.
+- **Update the Red Book** with reflections.
 - **Submit your GitHub link** (assignment/chapter specific) in MS Teams (the GitHub repository is *"only"* a file storage system).
 
 ## Q4: What is The Red Book of Westmarch?
