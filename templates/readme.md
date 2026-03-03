@@ -33,7 +33,7 @@ The Fellowship Companion is a **evolving digital tool** we build together. It is
 - All artifacts live in **this GitHub repo**.  
 - Gandalf (the AI) is our companion: we may ask him for help, but we always **reflect on our decisions** in The Red Book.  
 - Peer sharing is optional but highly recommended: it **keeps the Fellowship alive**.  
-- **The Red Book of Westmark** (`README.md` + `/chapters`) is our reflection log and living changelog.
+- **The Red Book of Westmark** (`/README.md` + `/chapters/`) is our reflection log and living changelog.
 
 ---
 
@@ -59,10 +59,10 @@ The Fellowship Companion is a **evolving digital tool** we build together. It is
 
    [Go to Chapter IV →](/chapters/chapter-4-when-things-react.md)
 
-5. **Chapter V - The Tale Completed**  
+5. **Chapter V - The Tale Continues**  
    *"The tale grew in the telling." - Bilbo*
 
-   [Go to Chapter V →](/chapters/chapter-5-the-tale-completed.md)
+   [Go to Chapter V →](/chapters/chapter-5-the-tale-continues.md)
 
 ---
 
