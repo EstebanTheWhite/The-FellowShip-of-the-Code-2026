@@ -33,7 +33,7 @@ The Fellowship Companion is a **evolving digital tool** we build together. It is
 - All artifacts live in **this GitHub repo**.  
 - Gandalf (the AI) is our companion: we may ask him for help, but we always **reflect on our decisions** in The Red Book.  
 - Peer sharing is optional but highly recommended: it **keeps the Fellowship alive**.  
-- **The Red Book of Westmark** (`/README.md` + `/chapters/`) is our reflection log and living changelog.
+- **The Red Book of Westmark** (`README.md` + `chapters/`) is our reflection log and living changelog.
 
 ---
 
@@ -42,27 +42,27 @@ The Fellowship Companion is a **evolving digital tool** we build together. It is
 1. **Chapter I - Setting Out**  
    *"I will take the Ring, though I do not know the way." - Frodo*
 
-   [Go to Chapter I →](/chapters/chapter-1-setting-out.md)
+   [Go to Chapter I →](chapters/chapter-1-setting-out.md)
 
 2. **Chapter II - Paths & Choices**  
    *"All we have to decide is what to do with the time that is given us." - Gandalf*
 
-   [Go to Chapter II →](/chapters/chapter-2-paths-and-choices.md)
+   [Go to Chapter II →](chapters/chapter-2-paths-and-choices.md)
 
 3. **Chapter III - Making It Visible**  
    *"I like less than half of you half as well as you deserve." - Bilbo*
 
-   [Go to Chapter III →](/chapters/chapter-3-making-it-visible.md)
+   [Go to Chapter III →](chapters/chapter-3-making-it-visible.md)
 
 4. **Chapter IV - When Things React**  
    *"Even the wise cannot see all ends." - Gandalf*
 
-   [Go to Chapter IV →](/chapters/chapter-4-when-things-react.md)
+   [Go to Chapter IV →](chapters/chapter-4-when-things-react.md)
 
 5. **Chapter V - The Tale Continues**  
    *"The tale grew in the telling." - Bilbo*
 
-   [Go to Chapter V →](/chapters/chapter-5-the-tale-continues.md)
+   [Go to Chapter V →](chapters/chapter-5-the-tale-continues.md)
 
 ---
 

@@ -45,7 +45,7 @@ This course uses a shared system narrative as a learning scaffold grounded in **
 
 The Fellowship Companion is the **digital support system for the journey**.
 
-The [system brief](/systembrief.md) details the specifics of the system, while this narrative situates the TFC in the broader journey.
+The [system brief](systembrief.md) details the specifics of the system, while this narrative situates the TFC in the broader journey.
 
 In short, it is **the artifact of the course**, constructed incrementally across assignment assignments:
 

@@ -75,7 +75,7 @@ Software development is no longer only for coders. For business & IT students, u
 - Each phase corresponds to a stage of the journey, with LOTR quotes, examples and locations guiding learning and reflection.
 - Students document their learning and AI reflections in **The Red Book of Westmarch**.
 
-**Why a [(LOTR) Narrative](/docs/narrative.md)?**
+**Why a [(LOTR) Narrative](docs/narrative.md)?**
 
 This course uses a shared system narrative as a learning scaffold grounded in **constructivist learning theory** (Lev Vygotsky) and **cognitive load theory** (John Sweller). By keeping the problem context constant, students can build and refine a single mental model across multiple artifacts rather than producing isolated solutions, supporting active knowledge construction. The narrative reduces extraneous cognitive load and enables deeper reasoning about system behavior, constraints, and trade-offs, in line with research emphasizing the need for **structured guidance in complex learning environments** (Paul A. Kirschner). It is used not for entertainment (alone), but to enforce coherence, comparability, and rigor in design work.
 
@@ -86,7 +86,7 @@ This course uses a shared system narrative as a learning scaffold grounded in **
 *`Throughout this course, you will work as part of they Fellowship supporting it on its journey from the Shire to Mordor.
 The Fellowship is already on the move. Your task is not to simulate the journey - but to support it while it is happening.`*
 
-**You will build [The Fellowship Companion](/docs/systembrief.md):** A small digital product that helps the Fellowship make decisions, stay aligned, manage resources, and adapt to changing conditions along the way.
+**You will build [The Fellowship Companion](docs/systembrief.md):** A small digital product that helps the Fellowship make decisions, stay aligned, manage resources, and adapt to changing conditions along the way.
 
 ---
 
@@ -116,13 +116,13 @@ The Fellowship is already on the move. Your task is not to simulate the journey 
 
 ## 8. Links
 
-- [Brief: The Fellowship Companion](/docs/systembrief.md)
-- [Narrative: The Fellowship of the Code (The Lord of the Rings)](/docs/narrative.md)
-- [F.A.Q.](/docs/faq.md)
-- [Guide: GitHub & The Red Book of Westmarch](/docs/howto.md)
-- [Checklist: Self-Study Assignments](/docs/checklist.md)
-- [Template: The Red Book of Westmarch](/templates/readme.md)
-- [Template: A chapter in The Red Book of Westmarch](/templates/chapter.md)
+- [Brief: The Fellowship Companion](docs/systembrief.md)
+- [Narrative: The Fellowship of the Code (The Lord of the Rings)](docs/narrative.md)
+- [F.A.Q.](docs/faq.md)
+- [Guide: GitHub & The Red Book of Westmarch](docs/howto.md)
+- [Checklist: Self-Study Assignments](docs/checklist.md)
+- [Template: The Red Book of Westmarch](templates/readme.md)
+- [Template: A chapter in The Red Book of Westmarch](templates/chapter.md)
 - [License](LICENSE.md)
 
 ---

@@ -35,8 +35,8 @@ This guide explains how to **work, submit, and document your work** for the **Ap
    - In GitHub, open your repository.
    - Click **Code** -> **Codespaces** -> **Create codespace on main**.
    - Wait until VS Code (web) starts.
-6. Fill `/README.md` using our [template](./templates/readme.md):
-   - Open [`/templates/readme.md`](./templates/readme.md).
+6. Fill `/README.md` using our [template](../templates/readme.md):
+   - Open [`/templates/readme.md`](../templates/readme.md).
    - Copy the structure/content into your repository root `/README.md`.
    - Replace placeholders with your team-specific content.
 7. Install these minimal VS Code extensions in Codespaces:
@@ -62,7 +62,7 @@ Every phase includes a **Red Book update**, reflecting on:
 - AI assistance used (explanations, modifications, limitations)
 - Lessons learned
 
-Please refer to our [official chapter template](./templates/chapter.md).
+Please refer to our [official chapter template](../templates/chapter.md).
 
 **Structure:**
 
@@ -143,6 +143,6 @@ Reflect updates in `/README.md` and as linked files in `/chapters/`.
 - Commit often with meaningful messages.
 - Keep artifacts organized and named consistently.
 - **Update The Red Book** after each task (it tracks your journey).
-- **Check the templates** in [`/templates/`](./templates) for formatting guidance.
-- **Check the examples** in [`/examples/`](./examples/) for illustrations of *"weak"* outputs.
+- **Check the templates** in [`/templates/`](../templates/) for formatting guidance.
+- **Check the examples** in [`/examples/`](../examples/) for illustrations of *"weak"* outputs.
 - Use the LOTR narrative to make your documentation memorable and interesting.
