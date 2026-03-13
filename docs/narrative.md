@@ -12,12 +12,12 @@
 
 This course uses a shared narrative and system metaphor as a structural learning scaffold, not merely for entertainment or gamification.
 
-In professional software development, isolated artifacts—flow diagrams, wireframes, logic rules, interfaces, and code—are rarely meaningful on their own. Their value emerges only when they describe the same system from different perspectives, reinforcing a coherent understanding. Without a shared frame, artifacts remain fragmented and can be superficially produced, or auto-generated, without deep comprehension.
+In professional software development, isolated artifacts - flow diagrams, wireframes, logic rules, interfaces, and code - are rarely meaningful on their own. Their value emerges only when they describe the same system from different perspectives, reinforcing a coherent understanding. Without a shared frame, artifacts remain fragmented and can be superficially produced, or auto-generated, without deep comprehension.
 
 **The narrative provides that frame of coherence:**
 
 - **Common Language:** By working within a shared story, students develop a vocabulary for discussing behavior, constraints, authority, and trade-offs.
-- **Cumulative Learning:** Each artifact—diagram, mockup, or code snippet—aligns with the same system model, mirroring professional software teams.
+- **Cumulative Learning:** Each artifact - diagram, mockup, or code snippet - aligns with the same system model, mirroring professional software teams.
 - **Enforced Rigor:** The narrative constrains the solution space, focuses design decisions, and prevents purely stylistic or superficial choices.
 - **Reflective Practice:** Students capture their decisions, reasoning, and AI assistance in The Red Book, creating a coherent learning journey.
 
@@ -45,7 +45,7 @@ This course uses a shared system narrative as a learning scaffold grounded in **
 
 The Fellowship Companion is the **digital support system for the journey**.
 
-The [system brief](/docs/systembrief.md) details the specifics of the system, while this narrative situates the TFC in the broader journey.
+The [system brief](/systembrief.md) details the specifics of the system, while this narrative situates the TFC in the broader journey.
 
 In short, it is **the artifact of the course**, constructed incrementally across assignment assignments:
 
