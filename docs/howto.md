@@ -99,7 +99,7 @@ Reflect updates in `/README.md` and as linked files in `/chapters/`.
 
 - Share your journey on our peer platform ([Lord of the Tweets](https://www.nafra.at/adad_st2026/)).
   - Use the specific GutHub pages link (e.g., *`https://username.github.io/The-Fellowship-of-the-Code-2026/artifacts/artifact-1/artifact-1-situation-intent.html`*).
-    - Not the GitHub repository link (except for "*.mermaid.md" files, here use the repository link).
+    - Not the GitHub repository link.
   - Only share your artifact, not the chapter.
 - Engage with others' work (comment/like).
 - Best engagement will receive recognition/prizes.
