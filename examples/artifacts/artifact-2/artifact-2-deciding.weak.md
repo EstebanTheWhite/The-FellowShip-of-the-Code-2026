@@ -12,7 +12,7 @@ I chose this because decisions are important in the journey.
 
 `[Flow](/src/flowchart.mermaid.md)`
 
->For this example see [flowchart.weak.mermaid.md](https://github.com/EstebanTheWhite/The-FellowShip-of-the-Code-2026/blob/main/examples/artifacts/artifact-1/src/flowchart.weak.mermaid.md)
+>For this example see [flowchart.weak.mermaid.md](/src/flowchart.weak.mermaid.md)
 
 ## Wireframe
 
