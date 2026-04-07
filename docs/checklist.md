@@ -19,7 +19,7 @@
 
 - [ ] Artifact link shared on [Lord of the Tweets](https://www.nafra.at/adad_st2026/) (not your chapters)
   - [ ] Specific GutHub pages link used (e.g., *`https://username.github.io/The-Fellowship-of-the-Code-2026/artifacts/artifact-1/artifact-1-situation-intent.html`*)
-    - Not the GitHub repository link (except for "*.mermaid.md" files, here use the repository link)
+    - Not the GitHub repository link
 - [ ] With others' work engaged (commented/liked)
 
 ## 4. Submission (MS Teams)
