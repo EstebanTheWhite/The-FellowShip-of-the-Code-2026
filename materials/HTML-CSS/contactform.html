@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contactform</title>
+    <link rel="stylesheet" href="contactform.css" />
+  </head>
+  <body>
+    <h1>Middle Earth - Complaint Form</h1>
+    <p>
+      <img
+        src="https://i-chzbgr-com.cdn.ampproject.org/ii/AW/s/i.chzbgr.com/full/9809227264/h366A5270/this-job-sucks"
+        alt="This job sucks meme"
+        width="500"
+      />
+    </p>
+
+    <form id="complaint-form">
+      <div>
+        <label for="race">Race</label>
+        <select id="race" class="form-input" name="race">
+          <option value="Hobbit">Hobbit</option>
+          <option value="Human">Human</option>
+          <option value="Orc">Orc</option>
+          <option value="Troll">Troll</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="firstname">First Name</label>
+        <input
+          id="firstname"
+          class="form-input"
+          type="text"
+          name="firstname"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="lastname">Last Name</label>
+        <input
+          id="lastname"
+          class="form-input"
+          type="text"
+          name="lastname"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="comment">Complaint</label>
+        <textarea
+          id="comment"
+          class="form-input"
+          name="comment"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit">Submit Complaint</button>
+    </form>
+
+    <h2>Complaint Summary</h2>
+    <ul id="results"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>

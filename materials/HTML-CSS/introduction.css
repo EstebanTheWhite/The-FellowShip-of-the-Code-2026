@@ -1,0 +1,39 @@
+th,
+td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+a {
+  color: green;
+}
+
+p {
+  margin-top: 5px;
+}
+
+span[style] {
+  color: yellow;
+}
+
+.red:hover {
+  color: red;
+}
+
+/*
+@media media-type and (media-feature-rule) {
+  CSS rule
+}
+*/
+
+@media screen and (min-width: 600px) and (min-height: 200px) {
+  .text {
+    color: red !important;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .text-large {
+    color: grey !important;
+  }
+}
