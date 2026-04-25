@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Layout mit gleichverteilten Spalten</h1>
+    <div class="flex">
+      <div>
+        <h2>Überschrift Links</h2>
+        <p>Dazu passender Text links</p>
+      </div>
+      <div>
+        <h2>Überschrift Rechts</h2>
+        <p>Dazu passender Text rechts</p>
+      </div>
+    </div>
+    <h1>Layout mit gleichverteilten zentrierten Spalten</h1>
+    <div class="flex flex-center">
+      <div>
+        <h2>Überschrift Links</h2>
+        <p>Dazu passender Text links</p>
+      </div>
+      <div>
+        <h2>Überschrift Rechts</h2>
+        <p>Dazu passender Text rechts</p>
+      </div>
+    </div>
+    <h1>Layout mit gleichverteilten ausfüllenden Spalten</h1>
+    <div class="flex">
+      <div class="flex-auto">
+        <h2>Überschrift Links</h2>
+        <p>Dazu passender Text links</p>
+      </div>
+      <div class="flex-auto">
+        <h2>Überschrift Rechts</h2>
+        <p>Dazu passender Text rechts</p>
+      </div>
+    </div>
+    <h1>Layout mit gleichverteilten zentrierten und ausfüllenden Spalten</h1>
+    <div class="flex flex-center text-center">
+      <div class="flex-auto">
+        <h2>Überschrift Links</h2>
+        <p>Dazu passender Text links</p>
+      </div>
+      <div class="flex-auto">
+        <h2>Überschrift Rechts</h2>
+        <p>Dazu passender Text rechts</p>
+      </div>
+    </div>
+    <h1>Layout mit ungleich verteilten Spalten (Erste Spalt bereiter)</h1>
+    <div class="flex">
+      <div class="flex-column-two">
+        <h2>Überschrift Links</h2>
+        <p>Dazu passender Text links</p>
+      </div>
+      <div class="flex-column-one">
+        <h2>Überschrift Rechts</h2>
+        <p>Dazu passender Text rechts</p>
+      </div>
+    </div>
+  </body>
+</html>

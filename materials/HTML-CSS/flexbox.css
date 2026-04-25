@@ -1,0 +1,32 @@
+/* Nur für die farbliche Unterscheidung */
+.flex > div {
+  background-color: #ccc;
+  border: 1px solid;
+}
+
+/* Flexbox */
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-auto {
+  flex: auto;
+}
+.flex-column-one {
+  flex: 1;
+}
+.flex-column-two {
+  flex: 2;
+}
+.text-center {
+  text-align: center;
+}
+
+/* Responsive Design - Bricht die Boxen auf kleinen Bildschirmen wieder um (so diese untereinander erscheinen) */
+@media (max-width: 600px) {
+  .flex {
+    display: block;
+  }
+}
