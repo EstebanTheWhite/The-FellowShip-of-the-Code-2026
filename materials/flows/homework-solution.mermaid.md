@@ -33,6 +33,8 @@ flowchart TB
 
 **Improved**
 
+```mermaid
+
 flowchart TB
     A["Search for a potential resting place"] --> B{"Resting place found?"}
     B -- No --> A
