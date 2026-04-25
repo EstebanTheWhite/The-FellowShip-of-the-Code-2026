@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+.p-yellow {
+  background-color: yellow;
+  display: inline;
+}
+
+.font-size-big {
+  font-size: 18px;
+}
+
+li:nth-child(even) {
+  text-decoration: underline;
+}
