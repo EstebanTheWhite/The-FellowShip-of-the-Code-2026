@@ -31,6 +31,8 @@ flowchart TB
     K --> O
     L --> O
 
+```
+
 **Improved**
 
 ```mermaid
@@ -59,3 +61,5 @@ flowchart TB
     M -- No --> A
     K --> O
     L --> O
+
+```
