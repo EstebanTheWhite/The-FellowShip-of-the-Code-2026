@@ -146,3 +146,4 @@ This repository is licensed under [**CC BY-NC-ND 4.0**](LICENSE.md).
  1.4|2026-02-28|Added more examples; improved wording and structure|
  1.5|2026-03-02|Added materials & more examples; improved wording and structure|
  1.6|2026-03-03|Added syllabus|
+ 1.7|2026-04-28|Added code examples (HTML, CSS, JS)|
