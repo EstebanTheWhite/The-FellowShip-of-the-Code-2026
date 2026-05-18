@@ -1,0 +1,308 @@
+:root {
+  --lotr-bg: #0f0d0a;
+  --lotr-panel: rgba(33, 24, 16, 0.88);
+  --lotr-panel-strong: rgba(24, 17, 11, 0.96);
+  --lotr-gold: #d4b06a;
+  --lotr-gold-soft: #f1ddb0;
+  --lotr-copper: #8f6730;
+  --lotr-ink: #f7ebc8;
+  --lotr-muted: #cdbb8a;
+  --lotr-danger: #b65a3c;
+  --lotr-shadow: rgba(0, 0, 0, 0.55);
+  --lotr-glow: rgba(212, 176, 106, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 48px 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--lotr-ink);
+  background:
+    radial-gradient(circle at top, rgba(180, 137, 63, 0.2), transparent 36%),
+    linear-gradient(rgba(8, 7, 5, 0.45), rgba(8, 7, 5, 0.8)),
+    linear-gradient(135deg, #1f170f, #0d0b08 58%, #1b140d);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 244, 214, 0.03), rgba(255, 244, 214, 0.01)),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0,
+      transparent 3px,
+      rgba(255, 236, 192, 0.015) 4px
+    );
+  opacity: 0.8;
+}
+
+body > * {
+  width: min(900px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lotr-gold-soft);
+  text-shadow: 0 0 12px var(--lotr-glow);
+}
+
+h1 {
+  margin: 0 0 18px;
+  padding: 22px 24px;
+  border: 1px solid rgba(212, 176, 106, 0.45);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(66, 48, 29, 0.9), rgba(28, 21, 14, 0.92)),
+    linear-gradient(90deg, transparent, rgba(212, 176, 106, 0.1), transparent);
+  box-shadow:
+    0 18px 40px var(--lotr-shadow),
+    inset 0 0 0 1px rgba(255, 229, 170, 0.08);
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+}
+
+h2,
+h3 {
+  margin-top: 28px;
+  margin-bottom: 12px;
+  font-size: 1.05rem;
+}
+
+ul {
+  margin: 0 0 22px;
+  padding-left: 24px;
+}
+
+body > ul {
+  padding: 24px 28px 24px 44px;
+  border: 1px solid rgba(212, 176, 106, 0.35);
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(46, 33, 21, 0.92), rgba(25, 18, 12, 0.95));
+  box-shadow: 0 14px 30px var(--lotr-shadow);
+}
+
+body > ul li {
+  margin-bottom: 12px;
+  color: var(--lotr-muted);
+}
+
+body > ul li::marker {
+  color: var(--lotr-gold);
+}
+
+div {
+  position: relative;
+  padding: 28px;
+  border: 1px solid rgba(212, 176, 106, 0.4);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(53, 39, 25, 0.96), rgba(23, 17, 11, 0.97));
+  box-shadow:
+    0 24px 50px var(--lotr-shadow),
+    inset 0 0 0 1px rgba(247, 235, 200, 0.06);
+  overflow: hidden;
+}
+
+div::before,
+div::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border: 1px solid rgba(212, 176, 106, 0.18);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+div::before {
+  top: -70px;
+  right: -50px;
+}
+
+div::after {
+  bottom: -90px;
+  left: -70px;
+}
+
+#js-todo-create-text {
+  width: calc(100% - 84px);
+  min-height: 56px;
+  padding: 14px 18px;
+  border: 1px solid rgba(212, 176, 106, 0.45);
+  border-radius: 14px;
+  outline: none;
+  background: rgba(245, 226, 183, 0.12);
+  color: var(--lotr-ink);
+  font: inherit;
+  font-size: 1rem;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#js-todo-create-text::placeholder {
+  color: rgba(241, 221, 176, 0.6);
+}
+
+#js-todo-create-text:focus {
+  border-color: var(--lotr-gold);
+  box-shadow:
+    inset 0 2px 10px rgba(0, 0, 0, 0.25),
+    0 0 0 4px rgba(212, 176, 106, 0.14);
+  transform: translateY(-1px);
+}
+
+#js-todo-create {
+  width: 64px;
+  min-height: 56px;
+  margin-left: 12px;
+  border: 1px solid rgba(212, 176, 106, 0.55);
+  border-radius: 14px;
+  background:
+    linear-gradient(180deg, #c59a4f, #7c5a2a);
+  color: #1a120a;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 243, 201, 0.45);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+#js-todo-create:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.35),
+    0 0 18px rgba(212, 176, 106, 0.2);
+}
+
+#js-todo-create:active {
+  transform: translateY(1px);
+}
+
+hr {
+  margin: 24px 0 20px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(212, 176, 106, 0.8),
+    transparent
+  );
+}
+
+#js-todo-entries {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#js-todo-entries li {
+  margin-bottom: 14px;
+  padding: 16px 18px;
+  border: 1px solid rgba(212, 176, 106, 0.24);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(70, 51, 33, 0.88), rgba(39, 28, 18, 0.94));
+  color: var(--lotr-ink);
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.24),
+    inset 0 0 0 1px rgba(255, 238, 194, 0.04);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#js-todo-entries li:hover {
+  transform: translateY(-2px);
+  border-color: rgba(212, 176, 106, 0.45);
+  box-shadow:
+    0 16px 28px rgba(0, 0, 0, 0.28),
+    0 0 18px rgba(212, 176, 106, 0.08);
+}
+
+#js-todo-entries li:last-child {
+  margin-bottom: 0;
+}
+
+#js-todo-entries a {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: transform 0.18s ease, filter 0.18s ease, background 0.18s ease;
+}
+
+.js-todo-entry-done {
+  background: rgba(102, 137, 76, 0.18);
+  color: #bdd89f;
+  border: 1px solid rgba(164, 207, 124, 0.32);
+}
+
+.js-todo-entry-done:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.js-todo-entry-remove {
+  background: rgba(182, 90, 60, 0.16);
+  color: #f0b29d;
+  border: 1px solid rgba(225, 136, 107, 0.28);
+}
+
+.js-todo-entry-remove:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 24px 14px;
+  }
+
+  h1 {
+    padding: 18px;
+  }
+
+  div {
+    padding: 20px;
+  }
+
+  #js-todo-create-text,
+  #js-todo-create {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #js-todo-create {
+    margin-top: 12px;
+  }
+
+  #js-todo-entries a {
+    margin-top: 8px;
+    margin-left: 0;
+    margin-right: 8px;
+  }
+}
