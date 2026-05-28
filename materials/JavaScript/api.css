@@ -1,7 +1,7 @@
 /* ====== Global Page Styling ====== */
 body {
   margin: 0;
-  padding: 40px;
+  height: 95vh;
   font-family: "Georgia", "Times New Roman", serif;
   background: linear-gradient(#2f3e2f, #1e2a1e);
   color: #f4e8c1;
