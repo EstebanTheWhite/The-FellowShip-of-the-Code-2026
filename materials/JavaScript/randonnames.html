@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Name Picker</title>
+    <link rel="stylesheet" href="randonnames.css" />
+  </head>
+  <body>
+    <main class="picker">
+      <h1>Random Name Picker</h1>
+
+      <label for="js-team-select">Choose a team</label>
+      <select id="js-team-select"></select>
+
+      <button id="js-pick-button" type="button">Pick a member</button>
+
+      <section class="result">
+        <p class="eyebrow">Selected member</p>
+        <p id="js-result-name">No one picked yet.</p>
+        <p id="js-result-team"></p>
+      </section>
+    </main>
+
+    <script src="randonnames.js"></script>
+  </body>
+</html>
